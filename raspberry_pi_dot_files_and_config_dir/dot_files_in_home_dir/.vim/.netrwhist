@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/mp/Desktop/linux_commands/rough_txt_files'
+let g:netrw_dirhist_2='/Users/mp'
+let g:netrw_dirhist_1='/Users/mp/Desktop/linux_commands/github_repositery/redhat_mac_commands/linux_com_github'
+let g:netrw_dirhist_0='/Users/mp/Desktop/linux_commands/rough_txt_files'
+let g:netrw_dirhist_9='/Users/mp/Desktop/linux_commands'
+let g:netrw_dirhist_8='/Users/mp/Desktop/linux_commands/rough_txt_files'
+let g:netrw_dirhist_7='/Users/mp/Desktop/linux_commands'
+let g:netrw_dirhist_6='/Users/mp/Desktop/linux_commands/rough_txt_files'
+let g:netrw_dirhist_5='/Users/mp/Desktop/linux_commands'
+let g:netrw_dirhist_4='/Users/mp/Desktop/linux_commands/rough_txt_files'

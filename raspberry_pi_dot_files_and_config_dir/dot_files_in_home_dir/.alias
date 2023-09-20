@@ -1,0 +1,26 @@
+# aliases
+alias h="history"
+alias gga="alias"
+# alias ggc="/home/pi/pi_scripts/bash_scripts/cheat_sheet.sh"
+alias pp="/home/pi/pi_scripts/bash_scripts/ps-aux-search.sh"
+alias ggh="cd ~/"
+#alias ggtt="/home/pi/pi_scripts/bash_scripts/tmux_kill_attach.sh"
+alias ggbr="/home/pi/pi_scripts/bash_scripts/brew_installed_pkg_name_search.sh"
+alias ggl='lfcd'
+alias xx="exit"
+alias nv=nvim
+alias dirs="dirs -v"
+alias ll=clear
+alias lscr="ls -lhtU" # list files with their modify time
+alias ggip="/home/pi/pi_scripts/bash_scripts/wifi_ip.sh"
+alias ggnmap="sudo nmap -sn 192.168.1.1-20"
+alias bat="bat --style=plain"
+alias bb=bpytop
+alias cd2="cd ../../"
+alias cd3="cd ../../../"
+
+alias bby='find /home/pi/pi_scripts/bash_scripts/run_through_fzf_or_alias -type f -name "*.sh" -o -type l -name "*.sh" | fzf --preview "bat {}" --preview-window=up:50%:wrap --ansi | xargs -I '{}' /home/pi_scripts/bash_scripts/run_through_fzf_or_alias/wrapper_script_run_fzf.sh '{}''
+alias ppy='bash /home/pi/pi_scripts/python_scripts/wrapper_script_run_fzf_for_py_scrpits.sh'
+
+# alias ffv='find /Volumes/mac_ssd/00_obsidian/code_notes/pics/vids -type f \( ! -name ".*" \) \( -name "*.mkv" -o -name "*.mp4" \) | fzf | xargs -I '{}' mpv '{}''
+
