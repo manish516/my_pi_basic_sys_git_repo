@@ -133,6 +133,6 @@ export PATH=$PATH:$GOPATH/bin
 #--------------------------------
 # lf .sh file for changing the dir after quiting lf or through lf
 
-source /home/pi/.config/lf/lfcd.sh
+source $HOME/.config/lf/lfcd.sh
 #-------------------------------
 
