@@ -18,7 +18,7 @@ alias bat="bat --style=plain"
 alias bb=bpytop
 alias cd2="cd ../../"
 alias cd3="cd ../../../"
-
+alias temp='python3 $HOME/pi_scripts/python_scripts/temp_pi.py'
 alias bby='find /home/pi/pi_scripts/bash_scripts/run_through_fzf_or_alias -type f -name "*.sh" -o -type l -name "*.sh" | fzf --preview "bat {}" --preview-window=up:50%:wrap --ansi | xargs -I '{}' /home/pi_scripts/bash_scripts/run_through_fzf_or_alias/wrapper_script_run_fzf.sh '{}''
 alias ppy='bash /home/pi/pi_scripts/python_scripts/wrapper_script_run_fzf_for_py_scrpits.sh'
 
